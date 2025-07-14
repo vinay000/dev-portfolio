@@ -1,4 +1,5 @@
 {
+  "exclude": ["node_modules", "dist", "src/components/ui"],
   "files": [],
   "references": [
     {
@@ -11,9 +12,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     }
   }
 }
